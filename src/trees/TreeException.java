@@ -2,10 +2,10 @@ package trees;
 
 import java.io.IOException;
 
-public class TreeException extends FamilyTree
+public class TreeException extends Exception
 {
-	public TreeException(String s) throws IOException
+	public TreeException(String s)
 	{
-		super();
+		super(s);
 	}
 }
